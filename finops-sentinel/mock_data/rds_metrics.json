@@ -1,0 +1,14 @@
+[
+  {
+    "DBInstanceIdentifier": "db-healthy",
+    "FreeStorageSpace": 5000000000.0
+  },
+  {
+    "DBInstanceIdentifier": "db-crit-over",
+    "FreeStorageSpace": 950000000000.0
+  },
+  {
+    "DBInstanceIdentifier": "db-high-over",
+    "FreeStorageSpace": 450000000000.0
+  }
+]

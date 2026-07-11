@@ -1,0 +1,26 @@
+{
+  "Volumes": [
+    {
+      "VolumeId": "vol-healthy",
+      "Size": 100,
+      "VolumeType": "gp3",
+      "Attachments": [
+        {
+          "State": "attached"
+        }
+      ]
+    },
+    {
+      "VolumeId": "vol-crit-unattached",
+      "Size": 1500,
+      "VolumeType": "io1",
+      "Attachments": []
+    },
+    {
+      "VolumeId": "vol-med-unattached",
+      "Size": 500,
+      "VolumeType": "gp3",
+      "Attachments": []
+    }
+  ]
+}

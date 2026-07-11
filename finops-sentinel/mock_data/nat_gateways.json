@@ -1,0 +1,8 @@
+{
+  "NatGateways": [
+    {
+      "NatGatewayId": "nat-healthy",
+      "State": "available"
+    }
+  ]
+}

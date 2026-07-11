@@ -1,0 +1,16 @@
+{
+  "SecurityGroups": [
+    {
+      "GroupId": "sg-inuse",
+      "GroupName": "web-sg"
+    },
+    {
+      "GroupId": "sg-crit-unused",
+      "GroupName": "default"
+    },
+    {
+      "GroupId": "sg-low-unused",
+      "GroupName": "test-sg"
+    }
+  ]
+}

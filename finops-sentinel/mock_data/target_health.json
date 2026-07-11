@@ -1,0 +1,23 @@
+{
+  "lb-healthy": {
+    "TargetHealthDescriptions": [
+      {
+        "TargetHealth": {
+          "State": "healthy"
+        }
+      }
+    ]
+  },
+  "lb-crit-idle": {
+    "TargetHealthDescriptions": [
+      {
+        "TargetHealth": {
+          "State": "unhealthy"
+        }
+      }
+    ]
+  },
+  "lb-med-idle": {
+    "TargetHealthDescriptions": []
+  }
+}

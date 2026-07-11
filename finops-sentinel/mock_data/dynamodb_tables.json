@@ -1,0 +1,24 @@
+{
+  "Tables": [
+    {
+      "TableName": "healthy-table",
+      "BillingModeSummary": {
+        "BillingMode": "PROVISIONED"
+      },
+      "ProvisionedThroughput": {
+        "ReadCapacityUnits": 5,
+        "WriteCapacityUnits": 5
+      }
+    },
+    {
+      "TableName": "idle-table",
+      "BillingModeSummary": {
+        "BillingMode": "PROVISIONED"
+      },
+      "ProvisionedThroughput": {
+        "ReadCapacityUnits": 1000,
+        "WriteCapacityUnits": 1000
+      }
+    }
+  ]
+}

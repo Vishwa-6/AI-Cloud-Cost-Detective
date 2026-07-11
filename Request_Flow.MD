@@ -1,19 +1,17 @@
 ## AI Cloud Cost Detective - Request Flow
 
-```
+① User ─·─·─► React ─·─·─► FastAPI Auth ─·─·─► JWT (SQLite)
 
-User ─·─·─► React ─·─·─► FastAPI Auth ─·─·─► JWT (PostgreSQL/SQLite)
+② User selects data source (mock / live) ─·─·─► Python Backend
 
-②  User selects data source (mock / live) + AWS region or mock set ─·─·─► Python Backend
+③ Python ─·─·─► boto3 ─·─·─► Fetches 12 resource types from mock JSON or live AWS
 
-③  Python ─·─·─► boto3 ─·─·─► Fetches all resources (EC2, RDS, S3, ELB) from mock JSON or live AWS
+④ Python ─·─·─► FastAPI WebSocket ─·─·─► React (live progress updates)
 
-④  Python ─·─·─► FastAPI WebSocket ─·─·─► React (live progress)
+⑤ Python ─·─·─► Rules Engine ─·─·─► Runs 16 deterministic checks (Critical, High, Medium, Low)
 
-⑤  Python ─·─·─► Gemini API ─·─·─► Cost analysis (structured JSON output)
+⑥ Python ─·─·─► Gemini API ─·─·─► Generates fix recommendations for findings
 
-⑥  Python ─·─·─► PostgreSQL/SQLite ─·─·─► Stores analysis history
+⑦ Python ─·─·─► SQLite ─·─·─► Stores analysis history
 
-⑦  React ◄·─·─·─ Final report with suggestions & fixes
-
-```
+⑧ React ◄·─·─·─ Final report with Donut Chart, Findings Table & CSV Export

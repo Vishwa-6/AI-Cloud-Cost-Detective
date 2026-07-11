@@ -1,0 +1,13 @@
+{
+  "LoadBalancers": [
+    {
+      "LoadBalancerName": "lb-healthy"
+    },
+    {
+      "LoadBalancerName": "lb-crit-idle"
+    },
+    {
+      "LoadBalancerName": "lb-med-idle"
+    }
+  ]
+}

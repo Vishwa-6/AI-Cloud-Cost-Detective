@@ -1,0 +1,78 @@
+{
+  "Reservations": [
+    {
+      "Instances": [
+        {
+          "InstanceId": "i-healthy",
+          "InstanceType": "t3.medium",
+          "ImageId": "ami-inuse",
+          "State": {
+            "Name": "running"
+          },
+          "Tags": [],
+          "SecurityGroups": [
+            {
+              "GroupId": "sg-inuse"
+            }
+          ]
+        },
+        {
+          "InstanceId": "i-crit-idle",
+          "InstanceType": "m5.24xlarge",
+          "ImageId": "ami-inuse",
+          "State": {
+            "Name": "running"
+          },
+          "Tags": [],
+          "SecurityGroups": [
+            {
+              "GroupId": "sg-inuse"
+            }
+          ]
+        },
+        {
+          "InstanceId": "i-high-idle",
+          "InstanceType": "m5.large",
+          "ImageId": "ami-inuse",
+          "State": {
+            "Name": "running"
+          },
+          "Tags": [],
+          "SecurityGroups": [
+            {
+              "GroupId": "sg-inuse"
+            }
+          ]
+        },
+        {
+          "InstanceId": "i-crit-over",
+          "InstanceType": "m5.4xlarge",
+          "ImageId": "ami-inuse",
+          "State": {
+            "Name": "running"
+          },
+          "Tags": [],
+          "SecurityGroups": [
+            {
+              "GroupId": "sg-inuse"
+            }
+          ]
+        },
+        {
+          "InstanceId": "i-med-over",
+          "InstanceType": "m5.2xlarge",
+          "ImageId": "ami-inuse",
+          "State": {
+            "Name": "running"
+          },
+          "Tags": [],
+          "SecurityGroups": [
+            {
+              "GroupId": "sg-inuse"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

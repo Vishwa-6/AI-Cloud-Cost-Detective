@@ -1,0 +1,22 @@
+[
+  {
+    "instance_id": "i-healthy",
+    "avg_cpu_utilization_percent": 60.0
+  },
+  {
+    "instance_id": "i-crit-idle",
+    "avg_cpu_utilization_percent": 0.5
+  },
+  {
+    "instance_id": "i-high-idle",
+    "avg_cpu_utilization_percent": 2.0
+  },
+  {
+    "instance_id": "i-crit-over",
+    "avg_cpu_utilization_percent": 12.0
+  },
+  {
+    "instance_id": "i-med-over",
+    "avg_cpu_utilization_percent": 25.0
+  }
+]

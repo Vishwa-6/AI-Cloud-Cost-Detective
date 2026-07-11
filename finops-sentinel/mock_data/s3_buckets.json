@@ -1,0 +1,16 @@
+{
+  "Buckets": [
+    {
+      "Name": "bucket-healthy",
+      "lifecycle_configured": true
+    },
+    {
+      "Name": "bucket-prod-crit",
+      "lifecycle_configured": false
+    },
+    {
+      "Name": "bucket-test-low",
+      "lifecycle_configured": false
+    }
+  ]
+}

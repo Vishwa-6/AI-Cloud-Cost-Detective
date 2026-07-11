@@ -1,0 +1,34 @@
+{
+  "DBInstances": [
+    {
+      "DBInstanceIdentifier": "db-healthy",
+      "DBInstanceClass": "db.t3.medium",
+      "TagList": [
+        {
+          "Key": "Environment",
+          "Value": "dev"
+        }
+      ]
+    },
+    {
+      "DBInstanceIdentifier": "db-crit-over",
+      "DBInstanceClass": "db.r5.8xlarge",
+      "TagList": [
+        {
+          "Key": "Environment",
+          "Value": "dev"
+        }
+      ]
+    },
+    {
+      "DBInstanceIdentifier": "db-high-over",
+      "DBInstanceClass": "db.r5.xlarge",
+      "TagList": [
+        {
+          "Key": "Environment",
+          "Value": "staging"
+        }
+      ]
+    }
+  ]
+}

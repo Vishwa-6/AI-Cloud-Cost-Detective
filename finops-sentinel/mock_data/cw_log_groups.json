@@ -1,0 +1,12 @@
+{
+  "logGroups": [
+    {
+      "logGroupName": "/aws/lambda/healthy-function",
+      "retentionInDays": 30
+    },
+    {
+      "logGroupName": "/aws/lambda/forgotten-function",
+      "retentionInDays": null
+    }
+  ]
+}

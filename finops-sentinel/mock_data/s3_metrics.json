@@ -1,0 +1,14 @@
+[
+  {
+    "BucketName": "bucket-healthy",
+    "BucketSizeBytes": 500000000.0
+  },
+  {
+    "BucketName": "bucket-prod-crit",
+    "BucketSizeBytes": 5000000000000.0
+  },
+  {
+    "BucketName": "bucket-test-low",
+    "BucketSizeBytes": 1500000000000.0
+  }
+]

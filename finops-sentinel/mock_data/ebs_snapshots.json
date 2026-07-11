@@ -1,0 +1,19 @@
+{
+  "Snapshots": [
+    {
+      "SnapshotId": "snap-healthy",
+      "VolumeId": "vol-healthy",
+      "StartTime": "2026-07-01T13:58:14.000Z"
+    },
+    {
+      "SnapshotId": "snap-crit-old",
+      "VolumeId": "vol-deleted1",
+      "StartTime": "2025-06-06T13:58:14.000Z"
+    },
+    {
+      "SnapshotId": "snap-low-old",
+      "VolumeId": "vol-deleted2",
+      "StartTime": "2026-04-02T13:58:14.000Z"
+    }
+  ]
+}

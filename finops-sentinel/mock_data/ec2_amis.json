@@ -1,0 +1,16 @@
+{
+  "Images": [
+    {
+      "ImageId": "ami-inuse",
+      "CreationDate": "2026-07-01T13:58:14.000Z"
+    },
+    {
+      "ImageId": "ami-crit-old",
+      "CreationDate": "2025-06-06T13:58:14.000Z"
+    },
+    {
+      "ImageId": "ami-low-old",
+      "CreationDate": "2026-04-02T13:58:14.000Z"
+    }
+  ]
+}
