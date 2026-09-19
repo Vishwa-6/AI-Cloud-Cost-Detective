@@ -30,16 +30,16 @@
                         │ RESOURCE    │     │  (Progress   │    │ (Remediation │
                         │  TYPES      │     │   Tracker)   │    │  Only)       │
                         └─────────────┘     └──────────────┘    └──────┬───────┘
-                                                  │
-                                                  ▼
-                                           ┌──────────────┐
-                                           │    SQLITE    │
-                                           │  (Database)  │
-                                           └──────┬───────┘
-                                                  :
-                                                  ▼
-                                           ┌───────────────┐
-                                           │    REACT      │
-                                           │ (Final Report │
-                                           │   Dashboard)  │
-                                           └───────────────┘
+                                                                       │
+                                                                       ▼
+                                                                ┌──────────────┐
+                                                                │    SQLITE    │
+                                                                │  (Database)  │
+                                                                └──────┬───────┘
+                                                                       :
+                                                                       ▼
+                                                                ┌───────────────┐
+                                                                │    REACT      │
+                                                                │ (Final Report │
+                                                                │   Dashboard)  │
+                                                                └───────────────┘
