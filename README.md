@@ -206,4 +206,4 @@ This runs the deterministic rules engine test suite against all 17 mock data fil
 
 ## 📄 License
 
-Open-source. See LICENSE file for details.
+Open-source.
